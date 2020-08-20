@@ -12,6 +12,9 @@
 	--secondary-text: #4b5156;
 
 	--theme-dot-border: #24292e;
+
+	--preview-background-color: rgba(251, 249, 243, 0.8);
+	--preview-shadow-color: #f0ead6;
 }
 
 html,
