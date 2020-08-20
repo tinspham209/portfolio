@@ -1,0 +1,8 @@
+.greeting-wrapper {
+	min-height: 10em;
+	border: 2px dashed lightcoral;
+
+	display: grid;
+	text-align: center;
+	align-content: center;
+}
