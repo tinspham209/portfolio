@@ -42,7 +42,7 @@ label,
 input,
 textarea {
 	color: var(--secondary-text);
-	font-family: "Russo One", sans-serif;
+	font-family: "Roboto Mono", monospace;
 }
 
 a {
