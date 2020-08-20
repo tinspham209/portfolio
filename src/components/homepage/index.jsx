@@ -4,6 +4,7 @@ import Greeting from "../greeting";
 import Intro from "../intro";
 import About from "../about";
 import Post from "../post";
+import Contact from "../contact";
 
 const Homepage = () => {
 	return (
@@ -25,7 +26,9 @@ const Homepage = () => {
 				</div>
 			</section>
 			<section className="s2">
-				<div className="main-container">Contact</div>
+				<div className="main-container">
+					<Contact />
+				</div>
 			</section>
 		</React.Fragment>
 	);
