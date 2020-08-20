@@ -196,10 +196,14 @@
 	}
 	.right-column {
 		justify-content: center;
+		padding-top: 0;
 	}
 }
 
 @media screen and (max-width: 500px) {
+	.right-column {
+		padding-top: 0;
+	}
 	#preview {
 		width: 240px;
 		height: 120px;
