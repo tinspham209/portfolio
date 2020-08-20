@@ -12,16 +12,13 @@
 }
 
 .nav-wrapper {
-	border: 1px dashed lightcoral;
 	grid-area: nav-wrapper;
 }
 
 .left-column {
-	border: 1px dashed lightcoral;
 	grid-area: left-column;
 }
 
 .right-column {
-	border: 1px dashed lightcoral;
 	grid-area: right-column;
 }
