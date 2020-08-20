@@ -44,7 +44,7 @@ const Post = () => {
 			<div className="post-wrapper">
 				{posts.map((post) => {
 					return (
-						<div>
+						<div key={post.id}>
 							<div className="post">
 								<img
 									className="post-thumbnail"
