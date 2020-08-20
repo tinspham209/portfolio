@@ -124,8 +124,8 @@ const getToolsIcon = () => {
 	return json.icons;
 };
 const About = () => {
-	const languages = getLanguagesIcons();
-	const tools = getToolsIcon();
+	// const languages = getLanguagesIcons();
+	// const tools = getToolsIcon();
 	return (
 		<div className="about-wrapper">
 			<div className="about-me">
