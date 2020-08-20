@@ -3,6 +3,7 @@ import "./style.css";
 import Greeting from "../greeting";
 import Intro from "../intro";
 import About from "../about";
+import Post from "../post";
 
 const Homepage = () => {
 	return (
@@ -19,7 +20,9 @@ const Homepage = () => {
 				</div>
 			</section>
 			<section className="s1">
-				<div className="main-container">Portfolio</div>
+				<div className="main-container">
+					<Post />
+				</div>
 			</section>
 			<section className="s2">
 				<div className="main-container">Contact</div>

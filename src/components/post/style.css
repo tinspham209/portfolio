@@ -1,0 +1,37 @@
+.post-wrapper {
+	padding-bottom: 50px;
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 320px);
+	justify-content: center;
+	gap: 20px;
+}
+
+.post {
+	border: 1px solid var(--border-color);
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+.post-thumbnail {
+	display: block;
+	width: 100%;
+	height: 180px;
+	object-fit: contain;
+}
+
+.post-preview {
+	background-color: #fff;
+	padding: 10px;
+}
+
+.post-title {
+	color: black;
+	margin: 0;
+}
+
+.post-intro {
+	color: #4b5156;
+	font-size: 14px;
+}
