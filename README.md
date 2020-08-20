@@ -26,6 +26,10 @@
 
 ### After this project
 
+I have improve my knowledge about
+
+- Layout with Grid & flex
+
 ### Directory Structure
 
 .
