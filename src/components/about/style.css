@@ -1,0 +1,41 @@
+.about-wrapper {
+	padding: 50px 0 50px 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 100px;
+}
+
+/* .languages img,
+.tools img {
+  padding: 5px;
+} */
+
+#skills {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: var(--preview-shadow-color);
+}
+
+.social-links {
+	display: grid;
+	align-content: space-between;
+}
+
+.social-links-wrapper {
+	text-align: center;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+}
+
+.social-icons img {
+	padding: 10px;
+}
+
+@media screen and (max-width: 500px) {
+	.about-wrapper {
+		gap: 50px;
+	}
+}
