@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Greeting from "../greeting";
 import Intro from "../intro";
+import About from "../about";
 
 const Homepage = () => {
 	return (
@@ -13,7 +14,9 @@ const Homepage = () => {
 				</div>
 			</section>
 			<section className="s2">
-				<div className="main-container">About</div>
+				<div className="main-container">
+					<About />
+				</div>
 			</section>
 			<section className="s1">
 				<div className="main-container">Portfolio</div>
