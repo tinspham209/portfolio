@@ -19,9 +19,6 @@
 .social-links {
 	display: grid;
 	align-content: space-between;
-}
-
-.social-links-wrapper {
 	text-align: center;
 }
 
