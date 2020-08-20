@@ -1,6 +1,7 @@
 .intro-wrapper {
 	background-color: var(--secondary-color);
 	border: 1px solid var(--border-color);
+	border-radius: 5px 5px 0 0;
 	-webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -13,6 +14,54 @@
 
 .nav-wrapper {
 	grid-area: nav-wrapper;
+
+	background-color: var(--main-color);
+	border-bottom: 1px solid var(--border-color);
+	border-radius: 5px 5px 0 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dots-wrapper {
+	padding: 10px;
+	display: flex;
+}
+
+.browser-dot {
+	height: 15px;
+	width: 15px;
+	margin: 5px;
+	background-color: black;
+
+	border-radius: 50%;
+	-webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+#dot-1 {
+	background-color: #fc6058;
+}
+
+#dot-2 {
+	background-color: #fec02f;
+}
+
+#dot-3 {
+	background-color: #2aca3e;
+}
+
+#navigation {
+	margin: 0;
+	padding: 10px;
+}
+
+#navigation li {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 .left-column {
