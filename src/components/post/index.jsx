@@ -12,6 +12,7 @@ const getPosts = () => {
 				imgSrc:
 					"https://camo.githubusercontent.com/7163876c7908470d506bb8643a207e7bdbad90fb/68747470733a2f2f692e696d6775722e636f6d2f337235594478452e706e67",
 				imgAlt: "corona-tracker",
+				link: "https://github.com/tinspham209/react-corona-tracker-v2",
 			},
 			{
 				id: 2,
@@ -21,6 +22,7 @@ const getPosts = () => {
 				imgSrc:
 					"https://camo.githubusercontent.com/e2e5b167c85cd560ffe8eca0ed1b0c223396fe40/68747470733a2f2f692e696d6775722e636f6d2f44485a774d54312e706e67",
 				imgAlt: "Alan-AI",
+				link: "https://github.com/tinspham209/react_alan_AI_news_application",
 			},
 			{
 				id: 3,
@@ -30,6 +32,7 @@ const getPosts = () => {
 				imgSrc:
 					"https://camo.githubusercontent.com/1233b7d90a0df80604aed0d5c315d63b973f0eef/68747470733a2f2f692e696d6775722e636f6d2f70676d543854522e706e67",
 				imgAlt: "Zoom-Clone",
+				link: "https://github.com/tinspham209/zoom-clone-expressjs",
 			},
 		],
 	};
@@ -54,7 +57,7 @@ const Post = () => {
 								<div className="post-preview">
 									<h6 className="post-title">{post.title}</h6>
 									<p className="post-intro">{post.description}</p>
-									<a href="#">Read More</a>
+									<a href={post.link}>Read More</a>
 								</div>
 							</div>
 						</div>
