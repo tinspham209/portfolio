@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Greeting from "../greeting";
+// import Greeting from "../greeting";
 import Intro from "../intro";
 import About from "../about";
 import Post from "../post";
