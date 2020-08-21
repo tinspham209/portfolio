@@ -17,6 +17,8 @@
 	--preview-shadow-color: #f0ead6;
 
 	--button-color: black;
+
+	--a-color: #17a2b8;
 }
 
 html,
@@ -49,6 +51,7 @@ textarea {
 
 a {
 	text-decoration: none;
+	color: var(--a-color);
 }
 
 ul {
