@@ -136,7 +136,7 @@ const getSocialsIcon = () => {
 				id: 2,
 				alt: "Instagram",
 				link: "https://www.instagram.com/phamthitins",
-				src: "https://img.icons8.com/fluent/48/000000/instagram-new.png",
+				src: "https://i.imgur.com/2UlYKod.png",
 			},
 			{
 				id: 3,
@@ -149,6 +149,12 @@ const getSocialsIcon = () => {
 				alt: "youtube",
 				link: "https://www.youtube.com/channel/UC7Yl-1r1qQwSB1Rej2UlaNQ/",
 				src: "https://img.icons8.com/doodle/48/000000/youtube-play.png",
+			},
+			{
+				id: 5,
+				alt: "github",
+				link: "https://github.com/tinspham209",
+				src: "https://img.icons8.com/fluent/48/000000/github.png",
 			},
 		],
 	};
