@@ -11,7 +11,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<section className="s1">
 				<div className="main-container">
-					<Greeting />
+					{/* <Greeting /> */}
 					<Intro />
 				</div>
 			</section>
