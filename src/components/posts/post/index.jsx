@@ -2,12 +2,12 @@ import React from "react";
 import "./style.css";
 const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
 	return (
-		<div key={id}>
-			<div className="post">
-				<img className="post-thumbnail" src={imgSrc} alt={imgAlt} />
-				<div className="post-preview">
-					<h6 className="post-title">{title}</h6>
-					<p className="post-intro">{description}</p>
+		<div>
+			<div className="post" key={id}>
+				<img className="post__thumbnail" src={imgSrc} alt={imgAlt} />
+				<div className="post__preview">
+					<h6 className="post__title">{title}</h6>
+					<p className="post__intro">{description}</p>
 					<a href={link}>Read More</a>
 				</div>
 			</div>

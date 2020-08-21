@@ -54,11 +54,12 @@ const Posts = ({ posts }) => {
 	return (
 		<React.Fragment>
 			<h3 style={{ textAlign: "center" }}>Some of my past projects</h3>
-			<div className="post-wrapper">
+			<div className="posts-wrapper">
 				<Slider {...settings}>
 					{posts.map((post) => {
 						return (
 							<Post
+								key={post.id}
 								id={post.id}
 								imgSrc={post.imgSrc}
 								imgAlt={post.imgAlt}
