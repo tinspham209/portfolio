@@ -3,10 +3,10 @@ import "./style.css";
 // import Greeting from "../greeting";
 import Intro from "../intro";
 import About from "../about";
-import Post from "../post";
+import Posts from "../posts";
 import Contact from "../contact";
 
-const Homepage = () => {
+const Homepage = ({ languages, socials, tools, posts }) => {
 	return (
 		<React.Fragment>
 			<section className="s1">
@@ -17,12 +17,12 @@ const Homepage = () => {
 			</section>
 			<section className="s2">
 				<div className="main-container">
-					<About />
+					<About socials={socials} languages={languages} tools={tools} />
 				</div>
 			</section>
 			<section className="s1">
 				<div className="main-container">
-					<Post />
+					<Posts posts={posts} />
 				</div>
 			</section>
 			<section className="s2">
