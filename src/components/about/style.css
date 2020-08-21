@@ -5,30 +5,39 @@
 	gap: 100px;
 }
 
-/* .languages img,
-.tools img {
-  padding: 5px;
-} */
-
-#skills {
-	display: flex;
-	justify-content: space-evenly;
-	background-color: var(--preview-shadow-color);
-}
-
-.social-links {
+.skills {
 	display: grid;
 	align-content: space-between;
-	text-align: center;
+	/* text-align: center; */
 }
 
 .social-icons {
 	display: flex;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .social-icons img {
 	padding: 10px;
+}
+
+.social-icons img:first-child {
+	padding-left: 0px;
+}
+
+#skills {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--preview-shadow-color);
+}
+
+.languages p,
+.tools p {
+	padding-left: 10px;
+}
+
+.languages img,
+.tools img {
+	padding: 5px;
 }
 
 @media screen and (max-width: 500px) {

@@ -123,132 +123,137 @@ const getToolsIcon = () => {
 	};
 	return json.icons;
 };
+
+const getSocialsIcon = () => {
+	let json = {
+		socials: [
+			{
+				id: 1,
+				alt: "Facebook",
+				link: "https://www.facebook.com/tinspham.209",
+				src: "https://img.icons8.com/fluent/48/000000/facebook-new.png",
+			},
+			{
+				id: 2,
+				alt: "Instagram",
+				link: "https://www.instagram.com/phamthitins",
+				src: "https://img.icons8.com/fluent/48/000000/instagram-new.png",
+			},
+			{
+				id: 3,
+				alt: "linkedin",
+				link: "linkedin.com/in/phamvantins",
+				src: "https://img.icons8.com/color/48/000000/linkedin-circled.png",
+			},
+			{
+				id: 4,
+				alt: "youtube",
+				link: "https://www.youtube.com/channel/UC7Yl-1r1qQwSB1Rej2UlaNQ/",
+				src: "https://img.icons8.com/doodle/48/000000/youtube-play.png",
+			},
+		],
+	};
+	return json.socials;
+};
 const About = () => {
-	// const languages = getLanguagesIcons();
-	// const tools = getToolsIcon();
+	const languages = getLanguagesIcons();
+	const tools = getToolsIcon();
+	const socials = getSocialsIcon();
 	return (
 		<div className="about-wrapper">
 			<div className="about-me">
-				<h4>More about me</h4>
-				<p>
-					<span>🌏</span> Lives: Da Nang city, Vietnam
-				</p>
-				<p>
-					<span>📨</span> Email: tinphamvan123@gmail.com
-				</p>
-				<p>
-					<span>🎓</span> Languages: English, Vietnamese
-				</p>
-				<p>
-					<span>📕</span> Education: Student of Duy Tan University
-				</p>
-				<hr />
-				<h4>TOP EXPERTISE</h4>
-				<p>
-					Fullstack developer with primary focus on React + Express:{" "}
-					<a target="_blank" rel="noopener noreferrer" href={resume}>
-						Download Resume
-					</a>{" "}
-				</p>
-				<div id="skills">
-					<ul>
-						<li>JavaScript</li>
-						<li>React</li>
-						<li>Redux</li>
-						<li>NodeJS</li>
-						<li>Express</li>
-						<li>PostgreSQL</li>
-						<li>MongoDB</li>
-					</ul>
-					<ul>
-						<li>VSCode</li>
-						<li>Github</li>
-						<li>Terminal</li>
-						<li>Katalon</li>
-						<li>Photoshop</li>
-						<li>Trello</li>
-						<li>Slack</li>
-					</ul>
-					{/* <div className="languages">
-						<p>Languages</p>
-						{languages.map((language) => {
+				<div className="more-about-me">
+					<h4>More about me</h4>
+					<p>
+						<span role="img" aria-label="live">
+							🌏
+						</span>{" "}
+						Lives: Da Nang city, Vietnam
+					</p>
+					<p>
+						<span role="img" aria-label="email">
+							📨
+						</span>{" "}
+						Email: tinphamvan123@gmail.com
+					</p>
+					<p>
+						<span role="img" aria-label="languages">
+							🎓
+						</span>{" "}
+						Languages: English, Vietnamese
+					</p>
+					<p>
+						<span role="img" aria-label="education">
+							📕
+						</span>{" "}
+						Education: Student of Duy Tan University
+					</p>
+					<hr />
+				</div>
+
+				<div className="social-links-wrapper">
+					<h3>Find me on social media </h3>
+					<div className="social-icons">
+						{socials.map((social) => {
 							return (
-								<img
-									key={language.id}
-									align="left"
-									alt={language.alt}
-									width="26px"
-									src={language.src}
-								/>
+								<a
+									key={social.id}
+									target="_blank"
+									rel="noopener noreferrer"
+									href={social.link}
+								>
+									<img
+										align="left"
+										alt={social.alt}
+										width="50px"
+										src={social.src}
+									/>
+								</a>
 							);
 						})}
 					</div>
-					<div className="tools">
-						<p>Tools</p>
-						{tools.map((tool) => {
-							return (
-								<img
-									key={tool.id}
-									align="left"
-									alt={tool.alt}
-									width="26px"
-									src={tool.src}
-								/>
-							);
-						})}
-					</div> */}
 				</div>
 			</div>
 
-			<div className="social-links">
-				<div className="social-links-wrapper">
-					<h3>Find me on Facebook, Instagram & Linkedin </h3>
-					<div className="social-icons">
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://www.facebook.com/tinspham.209"
-						>
-							<img
-								align="left"
-								alt="facebook"
-								width="50px"
-								src="https://img.icons8.com/fluent/48/000000/facebook-new.png"
-							/>
-						</a>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://www.instagram.com/phamthitins"
-						>
-							<img
-								align="left"
-								alt="instagram"
-								width="50px"
-								src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
-							/>
-						</a>
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="linkedin.com/in/phamvantins"
-						>
-							<img
-								align="left"
-								alt="Linkedin"
-								width="50px"
-								src="https://img.icons8.com/color/48/000000/linkedin-circled.png"
-							/>
-						</a>
+			<div className="skills">
+				<div className="top-expertise">
+					<h4>Top Expertise</h4>
+					<p>
+						Fullstack developer with primary focus on React + Express:{" "}
+						<a target="_blank" rel="noopener noreferrer" href={resume}>
+							Download Resume
+						</a>{" "}
+					</p>
+					<div id="skills">
+						<div className="languages">
+							<p>Languages: </p>
+							{languages.map((language) => {
+								return (
+									<img
+										key={language.id}
+										align="left"
+										alt={language.alt}
+										width="26px"
+										src={language.src}
+									/>
+								);
+							})}
+						</div>
+						<div className="tools">
+							<p>Tools: </p>
+							{tools.map((tool) => {
+								return (
+									<img
+										key={tool.id}
+										align="left"
+										alt={tool.alt}
+										width="26px"
+										src={tool.src}
+									/>
+								);
+							})}
+						</div>
 					</div>
-				</div>
-				<div className="top-langues">
-					<h4>Top Langues Used in Github</h4>
-					<img
-						id="social_img"
-						src="https://github-readme-stats.vercel.app/api/top-langs/?username=tinspham209&layout=compact"
-						alt="most-languages-used"
-					/>
 				</div>
 			</div>
 		</div>
