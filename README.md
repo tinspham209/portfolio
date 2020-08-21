@@ -5,7 +5,7 @@
 ### Tech-Stack
 
 - React
-- Django
+- react-slick
 
 ### Deploy
 
@@ -20,8 +20,6 @@
 - About Section
 - Portfolio/Bogs
 - Contact Form
-- Adding More Pages
-- Changing Themes
 - Hosting the Website
 
 ### After this project
