@@ -5,9 +5,11 @@
 ### Tech-Stack
 
 - React
-- react-slick
+- react-slick, slick-carousel
 
 ### Deploy
+
+http://tinspham.surge.sh/
 
 ### Screenshot
 
@@ -34,9 +36,49 @@ Next Steps:
 
 ### Directory Structure
 
+```
+
 .
-├──
-└──
+├── package.json
+├── package-lock.json
+├── README.md
+├── deploy-surge.sh
+├── .gitignore
+└── src
+    ├── assets
+        ├── img
+            └── avatar.png
+        └── resume
+            └── resume.pdf
+    ├── components
+        ├── about
+            ├── index.jsx
+            └── style.css
+        ├── contact
+            ├── index.jsx
+            └── style.css
+        ├── greeting
+            ├── index.jsx
+            └── style.css
+        ├── homepage
+            ├── index.jsx
+            └── style.css
+        ├── intro
+            ├── index.jsx
+            └── style.css
+        └── post
+            ├── index.jsx
+            └── style.css
+    └── containers
+        └── homepage
+            └── index.jsx
+    ├── App.css
+    ├── App.js
+    ├── index.css
+    ├── index.js
+    ├── serviceWorker.js
+    └── setupTests.js
+```
 
 ### Set up
 
