@@ -1,10 +1,10 @@
 .post-wrapper {
 	padding-bottom: 50px;
 
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 320px);
-	justify-content: center;
-	gap: 20px;
+	/* display: grid; */
+	/* grid-template-columns: repeat(auto-fit, 320px); */
+	/* justify-content: center; */
+	/* gap: 20px; */
 }
 
 .post {
@@ -12,6 +12,7 @@
 	-webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 	box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+	margin: 0 10px 0 10px;
 }
 
 .post-thumbnail {
