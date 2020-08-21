@@ -136,7 +136,7 @@ const Post = () => {
 
 	const settings = {
 		dots: true,
-		infinite: false,
+		infinite: true,
 		speed: 500,
 		lazyLoad: true,
 		slidesToShow: 3,
