@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import resume from "../../assets/resume/resume.pdf";
 
 const getLanguagesIcons = () => {
 	var json = {
@@ -220,8 +219,12 @@ const About = () => {
 					<h4>Top Expertise</h4>
 					<p>
 						Fullstack developer with primary focus on React + Express:{" "}
-						<a target="_blank" rel="noopener noreferrer" href={resume}>
-							Download Resume
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://www.visualcv.com/pdfs/5898749/"
+						>
+							Download Résumé
 						</a>{" "}
 					</p>
 					<div id="skills">
