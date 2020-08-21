@@ -4,8 +4,8 @@ import "./style.css";
 const About = ({ languages, socials, tools }) => {
 	return (
 		<div className="about-wrapper">
-			<div className="about-me">
-				<div className="more-about-me">
+			<div className="about-left">
+				<div className="about-left-top">
 					<h4>More about me</h4>
 					<p>
 						<span role="img" aria-label="live">
@@ -34,9 +34,9 @@ const About = ({ languages, socials, tools }) => {
 					<hr />
 				</div>
 
-				<div className="social-links-wrapper">
+				<div className="about-left-bot">
 					<h3>Find me on social media </h3>
-					<div className="social-icons">
+					<div className="about-left-bot__socials-icons">
 						{socials.map((social) => {
 							return (
 								<a
@@ -58,48 +58,46 @@ const About = ({ languages, socials, tools }) => {
 				</div>
 			</div>
 
-			<div className="skills">
-				<div className="top-expertise">
-					<h4>Top Expertise</h4>
-					<p>
-						Fullstack developer with primary focus on React + Express:{" "}
-						<a
-							target="_blank"
-							rel="noopener noreferrer"
-							href="https://www.visualcv.com/pdfs/5898749/"
-						>
-							Download Résumé
-						</a>{" "}
-					</p>
-					<div id="skills">
-						<div className="languages">
-							<p>Languages: </p>
-							{languages.map((language) => {
-								return (
-									<img
-										key={language.id}
-										align="left"
-										alt={language.alt}
-										width="26px"
-										src={language.src}
-									/>
-								);
-							})}
-						</div>
-						<div className="tools">
-							<p>Tools: </p>
-							{tools.map((tool) => {
-								return (
-									<img
-										key={tool.id}
-										align="left"
-										alt={tool.alt}
-										width="26px"
-										src={tool.src}
-									/>
-								);
-							})}
-						</div>
+			<div className="about-right">
+				<h4>Top Expertise</h4>
+				<p>
+					Fullstack developer with primary focus on React + Express:{" "}
+					<a
+						target="_blank"
+						rel="noopener noreferrer"
+						href="https://www.visualcv.com/pdfs/5898749/"
+					>
+						Download Résumé
+					</a>{" "}
+				</p>
+				<div className="about-right__skills">
+					<div className="about-right__skills-languages">
+						<p>Languages: </p>
+						{languages.map((language) => {
+							return (
+								<img
+									key={language.id}
+									align="left"
+									alt={language.alt}
+									width="26px"
+									src={language.src}
+								/>
+							);
+						})}
+					</div>
+					<div className="about-right__skills-tools">
+						<p>Tools: </p>
+						{tools.map((tool) => {
+							return (
+								<img
+									key={tool.id}
+									align="left"
+									alt={tool.alt}
+									width="26px"
+									src={tool.src}
+								/>
+							);
+						})}
 					</div>
 				</div>
 			</div>
