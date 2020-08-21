@@ -24,18 +24,15 @@ const Greeting = () => {
 						lineHeight: 0,
 					}}
 				>
-					Personalize Theme
+					Pham Van Tin
 				</h5>
-
-				<div id="theme-options-wrapper">
-					<div id="light-mode" className="theme-dot"></div>
-					<div id="blue-mode" className="theme-dot"></div>
-					<div id="green-mode" className="theme-dot"></div>
-					<div id="purple-mode" className="theme-dot"></div>
-				</div>
-
-				<p id="settings-note">
-					*Theme settings will be saved for your next visit
+				<p
+					style={{
+						textAlign: "center",
+						lineHeight: 0,
+					}}
+				>
+					{" <@tinspham209> "}
 				</p>
 			</div>
 			<div className="right-column">
