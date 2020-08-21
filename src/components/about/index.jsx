@@ -142,7 +142,7 @@ const getSocialsIcon = () => {
 			{
 				id: 3,
 				alt: "linkedin",
-				link: "linkedin.com/in/phamvantins",
+				link: "https://linkedin.com/in/phamvantins",
 				src: "https://img.icons8.com/color/48/000000/linkedin-circled.png",
 			},
 			{
