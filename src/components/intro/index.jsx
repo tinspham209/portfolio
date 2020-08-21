@@ -12,7 +12,7 @@ const Greeting = () => {
 				</div>
 				<ul id="navigation">
 					<li>
-						<a href="#">Contact</a>
+						<a href="#contact-form">Contact</a>
 					</li>
 				</ul>
 			</div>
@@ -35,7 +35,7 @@ const Greeting = () => {
 				</div>
 
 				<p id="settings-note">
-					*Theme settings will be saved for your next vist
+					*Theme settings will be saved for your next visit
 				</p>
 			</div>
 			<div className="right-column">
