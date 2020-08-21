@@ -1,5 +1,5 @@
 .about-wrapper {
-	padding: 50px 0 50px 0;
+	padding: 10px 0 50px 0;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 	gap: 100px;
@@ -43,5 +43,9 @@
 @media screen and (max-width: 500px) {
 	.about-wrapper {
 		gap: 50px;
+	}
+
+	.top-expertise h4 {
+		margin-top: 0;
 	}
 }
