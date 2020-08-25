@@ -33,6 +33,7 @@ I have improve my knowledge about
 Next Steps:
 
 - Add ... when paragraph too long in Post component
+- Add Blog
 
 ### Directory Structure
 
