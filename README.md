@@ -34,6 +34,7 @@ Next Steps:
 
 - Add ... when paragraph too long in Post component
 - Add Blog
+- ID Post : 13
 
 ### Directory Structure
 
