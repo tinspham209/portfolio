@@ -195,6 +195,15 @@ const getPosts = () => {
 				link: "https://github.com/tinspham209/zoom-clone-expressjs",
 			},
 			{
+				id: 13,
+				title: "Discord Bot",
+				description:
+					"Simple Discord BOT, kick / ban / reaction to set Role / announcements ",
+				imgSrc: "https://i.imgur.com/snzfdBE.png",
+				imgAlt: "discord-bot",
+				link: "https://github.com/tinspham209/discord-bot",
+			},
+			{
 				id: 4,
 				title: "Travelix Web Application",
 				description: "Hotel Booking Website with M.E.R.N stack",
