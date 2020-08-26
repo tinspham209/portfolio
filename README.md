@@ -13,6 +13,8 @@ http://tinspham.surge.sh/
 
 ### Screenshot
 
+<img src="https://i.imgur.com/8wIFjsf.png"/>
+
 ### Plan Of Action
 
 - Initial Setup
@@ -32,7 +34,6 @@ I have improve my knowledge about
 
 Next Steps:
 
-- Add ... when paragraph too long in Post component
 - Add Blog
 - ID Post : 13
 
