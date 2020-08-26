@@ -185,6 +185,15 @@ const getPosts = () => {
 				link: "https://github.com/tinspham209/react_alan_AI_news_application",
 			},
 			{
+				id: 13,
+				title: "Discord Bot Application",
+				description: "Discord Moderation & Music BOT",
+				imgSrc:
+					"https://camo.githubusercontent.com/a376c1d1365524768aaaa4ca7380aa45aac8b8cd/68747470733a2f2f692e696d6775722e636f6d2f76535057456b642e706e67",
+				imgAlt: "discord-bot",
+				link: "https://github.com/tinspham209/discord-bot",
+			},
+			{
 				id: 3,
 				title: "Zoom Clone Web Application",
 				description:
@@ -193,15 +202,6 @@ const getPosts = () => {
 					"https://camo.githubusercontent.com/1233b7d90a0df80604aed0d5c315d63b973f0eef/68747470733a2f2f692e696d6775722e636f6d2f70676d543854522e706e67",
 				imgAlt: "Zoom-Clone",
 				link: "https://github.com/tinspham209/zoom-clone-expressjs",
-			},
-			{
-				id: 13,
-				title: "Discord Bot",
-				description:
-					"Simple Discord BOT, kick / ban / reaction to set Role / announcements ",
-				imgSrc: "https://i.imgur.com/snzfdBE.png",
-				imgAlt: "discord-bot",
-				link: "https://github.com/tinspham209/discord-bot",
 			},
 			{
 				id: 4,
