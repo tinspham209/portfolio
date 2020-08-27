@@ -56,32 +56,17 @@ Next Steps:
             └── resume.pdf
     ├── components
         ├── about
-            ├── index.jsx
-            └── style.css
         ├── contact
-            ├── index.jsx
-            └── style.css
         ├── greeting
-            ├── index.jsx
-            └── style.css
         ├── homepage
-            ├── index.jsx
-            └── style.css
         ├── intro
-            ├── index.jsx
-            └── style.css
         └── post
-            ├── index.jsx
-            └── style.css
     └── containers
         └── homepage
-            └── index.jsx
     ├── App.css
     ├── App.js
     ├── index.css
-    ├── index.js
-    ├── serviceWorker.js
-    └── setupTests.js
+    └── index.js
 ```
 
 ### Set up
