@@ -6,6 +6,7 @@
 
 - React
 - react-slick, slick-carousel
+- react-id-generator
 
 ### Deploy
 
@@ -35,7 +36,6 @@ I have improve my knowledge about
 Next Steps:
 
 - Add Blog
-- ID Post : 13
 
 ### Directory Structure
 
@@ -50,6 +50,7 @@ Next Steps:
 └── src
     ├── assets
         ├── img
+            ├── no-image.jpg
             └── avatar.png
         └── resume
             └── resume.pdf
