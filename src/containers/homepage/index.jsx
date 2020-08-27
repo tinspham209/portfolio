@@ -198,6 +198,16 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Photo App",
+				description:
+					"improve knowledge about React, API. Study Redux-toolkit, Auth with firebase",
+				imgSrc:
+					"https://camo.githubusercontent.com/8675cd40c4886972ad1e57b89054cad2130e7f9a/68747470733a2f2f692e696d6775722e636f6d2f305071426555332e706e67",
+				imgAlt: "photo-app",
+				link: "https://github.com/tinspham209/redux-photo-app",
+			},
+			{
+				id: nextId(),
 				title: "Poop Collection",
 				description:
 					"Multiple player online game, Collecting all the 💩 created by the animals and you will be a 💩 Hero",
@@ -275,15 +285,6 @@ const getPosts = () => {
 					"https://camo.githubusercontent.com/9e8b1e065bb4274a13ce10f26742c60fd6fcace7/68747470733a2f2f692e696d6775722e636f6d2f63704a5158556b2e706e67",
 				imgAlt: "insta-clone",
 				link: "https://github.com/tinspham209/insta-clone-react",
-			},
-			{
-				id: nextId(),
-				title: "Photo App",
-				description: "show Photos and edit photo with React & Redux",
-				imgSrc:
-					"https://camo.githubusercontent.com/8675cd40c4886972ad1e57b89054cad2130e7f9a/68747470733a2f2f692e696d6775722e636f6d2f305071426555332e706e67",
-				imgAlt: "redux-photo-app",
-				link: "https://github.com/tinspham209/redux-photo-app",
 			},
 			{
 				id: nextId(),
