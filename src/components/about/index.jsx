@@ -61,7 +61,7 @@ const About = ({ languages, socials, tools }) => {
 			<div className="about-right">
 				<h4>Top Expertise</h4>
 				<p>
-					Fullstack developer with primary focus on React + Express:{" "}
+					Web developer with primary focus on React and Express:{" "}
 					<a
 						target="_blank"
 						rel="noopener noreferrer"
