@@ -198,6 +198,16 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Youtube Clone v2",
+				description:
+					"improve coding skills with React, Material-UI, react-router",
+				imgSrc:
+					"https://camo.githubusercontent.com/d928880feb1ffa182018cc6d48449078fc7f3d3b/68747470733a2f2f692e696d6775722e636f6d2f614d44587a49712e706e67",
+				imgAlt: "youtube-clone-v2",
+				link: "https://github.com/tinspham209/youtube-clone",
+			},
+			{
+				id: nextId(),
 				title: "Photo App",
 				description:
 					"improve knowledge about React, API. Study Redux-toolkit, Auth with firebase",
