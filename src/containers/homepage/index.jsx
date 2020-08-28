@@ -46,11 +46,11 @@ const getLanguagesIcons = () => {
 				src:
 					"https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png",
 			},
-			{
-				id: 8,
-				alt: "Python",
-				src: "https://img.icons8.com/color/48/000000/python.png",
-			},
+			// {
+			// 	id: 8,
+			// 	alt: "Python",
+			// 	src: "https://img.icons8.com/color/48/000000/python.png",
+			// },
 			// {
 			// 	id: 9,
 			// 	alt: "SQL",
