@@ -198,6 +198,15 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "TRVL Website",
+				description: "improve coding skills with React, Flex-box, Grid System",
+				imgSrc:
+					"https://camo.githubusercontent.com/0505fb67714d43f2e11fbca5b96350fc76214c66/68747470733a2f2f692e696d6775722e636f6d2f736841566d4e4c2e706e67",
+				imgAlt: "trvl-website",
+				link: "https://github.com/tinspham209/trvl-website-react",
+			},
+			{
+				id: nextId(),
 				title: "Youtube Clone v2",
 				description:
 					"improve coding skills with React, Material-UI, react-router",
