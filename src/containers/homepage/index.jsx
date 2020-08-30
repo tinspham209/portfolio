@@ -202,9 +202,9 @@ const getPosts = () => {
 				description:
 					"Display available Jobs from Github Jobs, study useReducer, react-bootstrap",
 				imgSrc:
-					"https://camo.githubusercontent.com/0505fb67714d43f2e11fbca5b96350fc76214c66/68747470733a2f2f692e696d6775722e636f6d2f736841566d4e4c2e706e67",
+					"https://camo.githubusercontent.com/62e86f9f3a7a93a7a5b2dba935f2953935d9b2a4/68747470733a2f2f692e696d6775722e636f6d2f6e51696d476c722e706e67",
 				imgAlt: "github-jobs",
-				link: "https://github.com/tinspham209/trvl-website-react",
+				link: "https://github.com/tinspham209/github-jobs",
 			},
 			{
 				id: nextId(),
