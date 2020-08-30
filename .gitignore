@@ -4,12 +4,13 @@
 /node_modules
 /.pnp
 .pnp.js
-
 # testing
 /coverage
 
 # production
 /build
+/.firebase
+/firebase.json
 
 # misc
 .DS_Store
