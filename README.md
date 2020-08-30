@@ -10,7 +10,7 @@
 
 ### Deploy
 
-http://tinspham.surge.sh/
+https://tinspham.info/
 
 ### Screenshot
 
@@ -25,7 +25,8 @@ http://tinspham.surge.sh/
 - About Section
 - Portfolio/Bogs
 - Contact Form
-- Hosting the Website
+- Hosting the Website in Firebase
+- Add custom domain to Firebase app
 
 ### After this project
 
