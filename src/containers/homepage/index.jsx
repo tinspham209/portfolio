@@ -198,6 +198,15 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Alcohol Calculator",
+				description: "Alcohol Calculator with jQuery",
+				imgSrc:
+					"https://camo.githubusercontent.com/c5a6c3621e82ae93302190aeb86c74b2750480a9/68747470733a2f2f692e696d6775722e636f6d2f365955657341702e706e67",
+				imgAlt: "alcohol-calculator",
+				link: "https://github.com/tinspham209/alcohol-calculator",
+			},
+			{
+				id: nextId(),
 				title: "Github Jobs",
 				description:
 					"Display available Jobs from Github Jobs, study useReducer, react-bootstrap",
