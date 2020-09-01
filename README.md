@@ -7,6 +7,7 @@
 - React
 - react-slick, slick-carousel
 - react-id-generator
+- react-lazy-load-image-component
 
 ### Deploy
 
@@ -27,6 +28,7 @@ https://tinspham.info/
 - Contact Form
 - Hosting the Website in Firebase
 - Add custom domain to Firebase app
+- Update Post img with react-lazy-load
 
 ### After this project
 
