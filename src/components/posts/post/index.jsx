@@ -1,10 +1,19 @@
 import React from "react";
 import "./style.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+
 const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
 	return (
 		<div>
 			<div className="post" key={id}>
-				<img className="post__thumbnail" src={imgSrc} alt={imgAlt} />
+				<LazyLoadImage
+					className="post__thumbnail"
+					alt={imgAlt}
+					effect="blur"
+					src={imgSrc}
+				/>
+				{/* <img className="post__thumbnail" src={imgSrc} alt={imgAlt} /> */}
 				<div className="post__preview">
 					<h6 className="post__title">{title}</h6>
 					<p className="post__description">{description}</p>
