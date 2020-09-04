@@ -207,8 +207,17 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Form Validation",
+				description: "Form Validation with React Hooks and custom Hooks",
+				imgSrc:
+					"https://camo.githubusercontent.com/d8de712b435340bd3f541e2b3ef53c115793612e/68747470733a2f2f692e696d6775722e636f6d2f73596159686b502e706e67",
+				imgAlt: "form-validation-hooks",
+				link: "https://github.com/tinspham209/form-validation",
+			},
+			{
+				id: nextId(),
 				title: "Alcohol Calculator",
-				description: "Alcohol Calculator with jQuery",
+				description: "Alcohol Calculator for Vietnamese with jQuery",
 				imgSrc:
 					"https://camo.githubusercontent.com/c5a6c3621e82ae93302190aeb86c74b2750480a9/68747470733a2f2f692e696d6775722e636f6d2f365955657341702e706e67",
 				imgAlt: "alcohol-calculator",
