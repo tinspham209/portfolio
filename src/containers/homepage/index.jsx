@@ -198,6 +198,15 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Tetris Game",
+				description: "Build a Tetris Game with React",
+				imgSrc:
+					"https://camo.githubusercontent.com/372a0401c654143e385df01b0802726a15303b6c/68747470733a2f2f692e696d6775722e636f6d2f32574f756c77672e706e67",
+				imgAlt: "tetris-game",
+				link: "https://github.com/tinspham209/tetris-game-react",
+			},
+			{
+				id: nextId(),
 				title: "Alcohol Calculator",
 				description: "Alcohol Calculator with jQuery",
 				imgSrc:
