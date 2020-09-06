@@ -198,6 +198,16 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Ultra Website",
+				description:
+					"Build Website Using Styled Components with Fully Responsive",
+				imgSrc:
+					"https://camo.githubusercontent.com/523e9165425b6285689f5270cd54ea0ebe41ed8e/68747470733a2f2f692e696d6775722e636f6d2f506764366948582e706e67",
+				imgAlt: "ultra-website",
+				link: "https://github.com/tinspham209/ultra-website",
+			},
+			{
+				id: nextId(),
 				title: "Tetris Game",
 				description: "Build a Tetris Game with React",
 				imgSrc:
