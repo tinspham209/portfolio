@@ -29,7 +29,7 @@ const About = ({ languages, socials, tools }) => {
 						<span role="img" aria-label="education">
 							📕
 						</span>{" "}
-						Education: Final-year student at Duy Tan University
+						Education: Majoring in Software Engineering from Duy Tan University
 					</p>
 					<hr />
 				</div>
