@@ -14,6 +14,9 @@ const Greeting = () => {
 					<li>
 						<a href="#contact-form">Contact</a>
 					</li>
+					<li>
+						<a href="https://tinsphamvan.wordpress.com/">/ Blog</a>
+					</li>
 				</ul>
 			</div>
 			<div className="left-column">
