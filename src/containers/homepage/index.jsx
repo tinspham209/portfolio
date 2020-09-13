@@ -169,6 +169,14 @@ const getPosts = () => {
 		posts: [
 			{
 				id: nextId(),
+				title: "Smart Dashboard Application",
+				description: "Environment Analysis System",
+				imgSrc: "https://i.imgur.com/wplIGef.png",
+				imgAlt: "sda-logo",
+				link: "https://github.com/sdateamdtu2020",
+			},
+			{
+				id: nextId(),
 				title: "COVID-19 Tracker Web Application",
 				description:
 					"Display Infected, Recovered, Deaths in tables, chart, maps of 215 another countries",
