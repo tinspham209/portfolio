@@ -56,16 +56,16 @@ const getLanguagesIcons = () => {
 			// 	alt: "SQL",
 			// 	src: "https://img.icons8.com/bubbles/50/000000/data-configuration.png",
 			// },
-			{
-				id: 10,
-				alt: "MongoDB",
-				src: "https://img.icons8.com/color/48/000000/mongodb.png",
-			},
-			{
-				id: 11,
-				alt: "PostgreSQL",
-				src: "https://img.icons8.com/color/48/000000/postgreesql.png",
-			},
+			// {
+			// 	id: 10,
+			// 	alt: "MongoDB",
+			// 	src: "https://img.icons8.com/color/48/000000/mongodb.png",
+			// },
+			// {
+			// 	id: 11,
+			// 	alt: "PostgreSQL",
+			// 	src: "https://img.icons8.com/color/48/000000/postgreesql.png",
+			// },
 		],
 	};
 	return json.icons;
