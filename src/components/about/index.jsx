@@ -72,7 +72,7 @@ const About = ({ languages, socials, tools }) => {
 				</p>
 				<div className="about-right__skills">
 					<div className="about-right__skills-languages">
-						<p>Languages: </p>
+						<p>Programming Languages: </p>
 						{languages.map((language) => {
 							return (
 								<img
