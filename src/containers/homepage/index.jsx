@@ -177,6 +177,15 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Noor Coffee & Tea Website",
+				description: "A Website for my coffee shop in Danang",
+				imgSrc: "https://i.imgur.com/okPlhtY.png",
+				imgAlt: "noor-coffee-tea-website",
+				link: "https://github.com/tinspham209/noor-coffee",
+			},
+
+			{
+				id: nextId(),
 				title: "COVID-19 Tracker Web Application",
 				description:
 					"Display Infected, Recovered, Deaths in tables, chart, maps of 215 another countries",
@@ -203,6 +212,15 @@ const getPosts = () => {
 					"https://camo.githubusercontent.com/a376c1d1365524768aaaa4ca7380aa45aac8b8cd/68747470733a2f2f692e696d6775722e636f6d2f76535057456b642e706e67",
 				imgAlt: "discord-bot",
 				link: "https://github.com/tinspham209/discord-bot",
+			},
+			{
+				id: nextId(),
+				title: "CodePen Clone",
+				description: "CodePen Clone with React",
+				imgSrc:
+					"https://camo.githubusercontent.com/16834d4f5d755b8ec13b2edebbd24fc223891735/68747470733a2f2f692e696d6775722e636f6d2f53616b34306b372e706e67",
+				imgAlt: "codepen-clone",
+				link: "https://github.com/tinspham209/codepen-clone",
 			},
 			{
 				id: nextId(),
