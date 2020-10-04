@@ -62,11 +62,7 @@ const About = ({ languages, socials, tools }) => {
 				<h4>Top Expertise</h4>
 				<p>
 					Web developer with primary focus on React and Express:{" "}
-					<a
-						target="_blank"
-						rel="noopener noreferrer"
-						href="https://www.visualcv.com/pdfs/5898749/"
-					>
+					<a target="_blank" rel="noopener noreferrer" href="/resume.pdf">
 						Download Résumé
 					</a>{" "}
 				</p>
