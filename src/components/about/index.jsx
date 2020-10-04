@@ -23,13 +23,14 @@ const About = ({ languages, socials, tools }) => {
 						<span role="img" aria-label="languages">
 							🎓
 						</span>{" "}
-						Languages: English, Vietnamese
+						Languages: Vietnamese, English
 					</p>
 					<p>
 						<span role="img" aria-label="education">
 							📕
 						</span>{" "}
-						Education: Majoring in Software Engineering from Duy Tan University
+						Education: Bachelor of Science: Software Engineer from Duy Tan
+						University
 					</p>
 					<hr />
 				</div>
