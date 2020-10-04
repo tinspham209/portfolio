@@ -1,7 +1,9 @@
 .greeting-wrapper {
-	min-height: 10em;
-
 	display: grid;
 	text-align: center;
 	align-content: center;
+}
+
+.greeting-wrapper p {
+	font-size: 15px;
 }
