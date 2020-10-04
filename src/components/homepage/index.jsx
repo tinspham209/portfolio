@@ -1,10 +1,10 @@
 import React from "react";
 import "./style.css";
-// import Greeting from "../greeting";
 import Intro from "../intro";
 import About from "../about";
 import Posts from "../posts";
-import Contact from "../contact";
+// import Contact from "../contact";
+import Greeting from "../greeting";
 
 const Homepage = ({ languages, socials, tools, posts }) => {
 	return (
@@ -27,7 +27,7 @@ const Homepage = ({ languages, socials, tools, posts }) => {
 			</section>
 			<section className="s2">
 				<div className="main-container">
-					<Contact />
+					<Greeting />
 				</div>
 			</section>
 		</React.Fragment>
