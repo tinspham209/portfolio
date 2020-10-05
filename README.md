@@ -42,7 +42,10 @@ I have improve my knowledge about
 
 Next Steps:
 
-- Add Blog
+- Update icons with react-icons
+- Add route for past projects
+- Add new projects with firebase
+- Highlight 6 projects in homepage
 
 ### Directory Structure
 
