@@ -15,7 +15,7 @@ https://tinspham.info/
 
 ### Screenshot
 
-<img src="https://i.imgur.com/8wIFjsf.png"/>
+<img src="https://i.imgur.com/lvTosqG.png" alt="portfolio"/>
 
 ### Plan Of Action
 
@@ -24,11 +24,15 @@ https://tinspham.info/
 - Navigation Bar
 - Intro Section
 - About Section
-- Portfolio/Bogs
+- Portfolio/Blogs
 - Contact Form
 - Hosting the Website in Firebase
 - Add custom domain to Firebase app
 - Update Post img with react-lazy-load
+- Update information
+- Add Blog site with wordpress
+- Greeting component
+- Remove contact form
 
 ### After this project
 
@@ -48,15 +52,19 @@ Next Steps:
 ├── package.json
 ├── package-lock.json
 ├── README.md
-├── deploy-surge.sh
+├── deploy-firebase
 ├── .gitignore
+├── public
+    ├── 404.html
+    ├── index.html
+    ├── favicon.ico
+    └── resume.pdf
 └── src
     ├── assets
         ├── img
             ├── no-image.jpg
+            ├── chan-dung-edit.png
             └── avatar.png
-        └── resume
-            └── resume.pdf
     ├── components
         ├── about
         ├── contact
