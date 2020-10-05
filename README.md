@@ -46,6 +46,7 @@ Next Steps:
 - Add route for past projects
 - Add new projects with firebase
 - Highlight 6 projects in homepage
+- Add Dark mode
 
 ### Directory Structure
 
