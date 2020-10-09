@@ -1,6 +1,7 @@
 import React from "react";
 // import Avatar from "../../assets/img/avatar.png";
-import Avatar1 from "../../assets/img/chan-dung-edit.png";
+// import Avatar1 from "../../assets/img/chan-dung-edit.png";
+import Avatar2 from "../../assets/img/full-nguoi-edit.webp";
 import "./style.css";
 const Greeting = () => {
 	return (
@@ -21,7 +22,7 @@ const Greeting = () => {
 				</ul>
 			</div>
 			<div className="left-column">
-				<img className="avatar" src={Avatar1} alt="Avatar" />
+				<img className="avatar" src={Avatar2} alt="Avatar" />
 				<h5>Pham Van Tin</h5>
 				<p>{" <@tinspham209> "}</p>
 			</div>
