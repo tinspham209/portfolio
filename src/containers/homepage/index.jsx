@@ -173,7 +173,7 @@ const getPosts = () => {
 				description: "Environment Analysis System",
 				imgSrc: "https://i.imgur.com/wplIGef.png",
 				imgAlt: "sda-logo",
-				link: "https://github.com/sdateamdtu2020",
+				link: "https://sda-research.ml",
 			},
 			{
 				id: nextId(),
@@ -181,9 +181,18 @@ const getPosts = () => {
 				description: "A Website for my coffee shop in Danang",
 				imgSrc: "https://i.imgur.com/okPlhtY.png",
 				imgAlt: "noor-coffee-tea-website",
-				link: "https://github.com/tinspham209/noor-coffee",
+				link: "https://noordn.cf",
 			},
-
+			{
+				id: nextId(),
+				title: "Netflix Clone",
+				description:
+					"Home, Browse, sign in, and sign up, live search, lists of films, and watch video.",
+				imgSrc:
+					"https://camo.githubusercontent.com/76f23a26ca620d3f51cd3a0be80f3df9f00a7c08/68747470733a2f2f692e696d6775722e636f6d2f7765647a4d52492e706e67",
+				imgAlt: "netflix-clone",
+				link: "https://netflix.tinspham.info",
+			},
 			{
 				id: nextId(),
 				title: "COVID-19 Tracker Web Application",
