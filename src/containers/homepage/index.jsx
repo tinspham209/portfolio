@@ -170,7 +170,8 @@ const getPosts = () => {
 			{
 				id: nextId(),
 				title: "Smart Dashboard Application",
-				description: "Environment Analysis System",
+				description:
+					"Scientific research: Environment Analysis System in Vietnam",
 				imgSrc: "https://i.imgur.com/wplIGef.png",
 				imgAlt: "sda-logo",
 				link: "https://sda-research.ml",
@@ -178,8 +179,9 @@ const getPosts = () => {
 			{
 				id: nextId(),
 				title: "Noor Coffee & Tea Website",
-				description: "A Website for my coffee shop in Danang",
-				imgSrc: "https://i.imgur.com/okPlhtY.png",
+				description:
+					"Homepage, List of Products, Store in Maps, Membership, Feedback form, About us, Blog",
+				imgSrc: "https://i.imgur.com/6tmaBFW.png",
 				imgAlt: "noor-coffee-tea-website",
 				link: "https://noordn.cf",
 			},
@@ -191,7 +193,7 @@ const getPosts = () => {
 				imgSrc:
 					"https://camo.githubusercontent.com/76f23a26ca620d3f51cd3a0be80f3df9f00a7c08/68747470733a2f2f692e696d6775722e636f6d2f7765647a4d52492e706e67",
 				imgAlt: "netflix-clone",
-				link: "https://netflix.tinspham.info",
+				link: "https://github.com/tinspham209/netflix-clone",
 			},
 			{
 				id: nextId(),
