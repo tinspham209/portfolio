@@ -226,6 +226,16 @@ const getPosts = () => {
 			},
 			{
 				id: nextId(),
+				title: "Memories Application",
+				description:
+					"a simple social media app that allows users to post interesting events that happened in their lives.",
+				imgSrc:
+					"https://github.com/tinspham209/memories-application/raw/master/template-project-img.png",
+				imgAlt: "memories-application",
+				link: "https://github.com/tinspham209/memories-application",
+			},
+			{
+				id: nextId(),
 				title: "CodePen Clone",
 				description: "CodePen Clone with React",
 				imgSrc:
