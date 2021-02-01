@@ -33,8 +33,8 @@ const Greeting = () => {
 						<div className="corner corner-tr"></div>
 						<h3>What I Do?</h3>
 						<p>
-							I'm a final-year student, interested in designing websites,
-							networking.
+							BSc student, interested in designing websites, especially things
+							related to Front-end stacks.
 						</p>
 						<div className="corner corner-br"></div>
 						<div className="corner corner-bl"></div>

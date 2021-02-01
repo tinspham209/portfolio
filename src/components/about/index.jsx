@@ -29,8 +29,7 @@ const About = ({ languages, socials, tools }) => {
 						<span role="img" aria-label="education">
 							📕
 						</span>{" "}
-						Education: Bachelor of Science: Software Engineer from Duy Tan
-						University
+						Education: BSc student in Software Engineer
 					</p>
 					<hr />
 				</div>

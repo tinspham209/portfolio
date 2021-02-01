@@ -131,6 +131,18 @@ const getSocialsIcon = () => {
 		socials: [
 			{
 				id: nextId(),
+				alt: "linkedin",
+				link: "https://linkedin.com/in/phamvantins",
+				src: "https://img.icons8.com/color/48/000000/linkedin-circled.png",
+			},
+			{
+				id: nextId(),
+				alt: "github",
+				link: "https://github.com/tinspham209",
+				src: "https://img.icons8.com/fluent/48/000000/github.png",
+			},
+			{
+				id: nextId(),
 				alt: "Facebook",
 				link: "https://www.facebook.com/tinspham.209",
 				src: "https://img.icons8.com/fluent/48/000000/facebook-new.png",
@@ -139,25 +151,7 @@ const getSocialsIcon = () => {
 				id: nextId(),
 				alt: "Instagram",
 				link: "https://www.instagram.com/phamthitins",
-				src: "https://i.imgur.com/2UlYKod.png",
-			},
-			{
-				id: nextId(),
-				alt: "linkedin",
-				link: "https://linkedin.com/in/phamvantins",
-				src: "https://img.icons8.com/color/48/000000/linkedin-circled.png",
-			},
-			{
-				id: nextId(),
-				alt: "youtube",
-				link: "https://www.youtube.com/channel/UC7Yl-1r1qQwSB1Rej2UlaNQ/",
-				src: "https://img.icons8.com/doodle/48/000000/youtube-play.png",
-			},
-			{
-				id: nextId(),
-				alt: "github",
-				link: "https://github.com/tinspham209",
-				src: "https://img.icons8.com/fluent/48/000000/github.png",
+				src: "https://img.icons8.com/ios-glyphs/48/000000/instagram-circle.png",
 			},
 		],
 	};
@@ -171,29 +165,49 @@ const getPosts = () => {
 				id: nextId(),
 				title: "Smart Dashboard Application",
 				description:
-					"Scientific research: Environment Analysis System in Vietnam",
+					"Building a Data Warehouse gathered from Vietnam's environmental data sources, and a Dashboard to help environmental experts and policymakers synthesize and visualize data directly and easily.",
 				imgSrc: "https://i.imgur.com/wplIGef.png",
 				imgAlt: "sda-logo",
-				link: "https://sda-research.ml",
+				link: "https://github.com/sdateamdtu2020/SDA-v2.0",
 			},
 			{
 				id: nextId(),
-				title: "Noor Coffee & Tea Website",
-				description:
-					"Homepage, List of Products, Store in Maps, Membership, Feedback form, About us, Blog",
-				imgSrc: "https://i.imgur.com/6tmaBFW.png",
+				title: "NOOR Coffee Website",
+				description: "A website of my coffee shop",
+				imgSrc:
+					"https://github.com/tinspham209/noor-coffee-v2.0/raw/master/screenshot.png",
 				imgAlt: "noor-coffee-tea-website",
 				link: "https://noordn.cf",
 			},
 			{
 				id: nextId(),
-				title: "Netflix Clone",
+				title: "50 projects 50 days",
 				description:
-					"Home, Browse, sign in, and sign up, live search, lists of films, and watch video.",
+					"50 unique mini-projects to sharpen your HTML, CSS & JavaScript skills",
 				imgSrc:
-					"https://camo.githubusercontent.com/76f23a26ca620d3f51cd3a0be80f3df9f00a7c08/68747470733a2f2f692e696d6775722e636f6d2f7765647a4d52492e706e67",
-				imgAlt: "netflix-clone",
-				link: "https://github.com/tinspham209/netflix-clone",
+					"https://github.com/tinspham209/50projects50days/raw/master/screenshot.jpg",
+				imgAlt: "50projects50days",
+				link: "https://github.com/tinspham209/50projects50days",
+			},
+			{
+				id: nextId(),
+				title: "Memories Application with MERN Stack",
+				description:
+					"A simple social media app that allows users to post interesting events that happened in their lives, and Authentication",
+				imgSrc:
+					"https://github.com/tinspham209/memories-application/raw/master/template-project-img.png",
+				imgAlt: "memories-app",
+				link: "https://memories.tinspham.info/",
+			},
+			{
+				id: nextId(),
+				title: "Daily UI",
+				description:
+					"create an interesting project that I'm seeing on dribbble",
+				imgSrc:
+					"https://github.com/tinspham209/daily-ui/raw/master/05-glass-dashboard/template-project-img.png",
+				imgAlt: "daily-ui",
+				link: "https://github.com/tinspham209/daily-ui",
 			},
 			{
 				id: nextId(),
@@ -204,6 +218,16 @@ const getPosts = () => {
 					"https://camo.githubusercontent.com/7163876c7908470d506bb8643a207e7bdbad90fb/68747470733a2f2f692e696d6775722e636f6d2f337235594478452e706e67",
 				imgAlt: "corona-tracker",
 				link: "https://github.com/tinspham209/react-corona-tracker-v2",
+			},
+			{
+				id: nextId(),
+				title: "Netflix Clone",
+				description:
+					"Home, Browse, sign in, and sign up, live search, lists of films, and watch video.",
+				imgSrc:
+					"https://camo.githubusercontent.com/76f23a26ca620d3f51cd3a0be80f3df9f00a7c08/68747470733a2f2f692e696d6775722e636f6d2f7765647a4d52492e706e67",
+				imgAlt: "netflix-clone",
+				link: "https://github.com/tinspham209/netflix-clone",
 			},
 			{
 				id: nextId(),
@@ -223,16 +247,6 @@ const getPosts = () => {
 					"https://camo.githubusercontent.com/a376c1d1365524768aaaa4ca7380aa45aac8b8cd/68747470733a2f2f692e696d6775722e636f6d2f76535057456b642e706e67",
 				imgAlt: "discord-bot",
 				link: "https://github.com/tinspham209/discord-bot",
-			},
-			{
-				id: nextId(),
-				title: "Memories Application",
-				description:
-					"a simple social media app that allows users to post interesting events that happened in their lives.",
-				imgSrc:
-					"https://github.com/tinspham209/memories-application/raw/master/template-project-img.png",
-				imgAlt: "memories-application",
-				link: "https://github.com/tinspham209/memories-application",
 			},
 			{
 				id: nextId(),
