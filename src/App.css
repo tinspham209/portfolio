@@ -52,6 +52,7 @@ textarea {
 a {
 	text-decoration: none;
 	color: var(--a-color);
+	font-family: "Roboto Mono", monospace;
 }
 
 ul {
