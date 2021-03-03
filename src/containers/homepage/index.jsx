@@ -165,7 +165,7 @@ const getPosts = () => {
 				id: nextId(),
 				title: "Smart Dashboard Application",
 				description:
-					"Building a Data Warehouse gathered from Vietnam's environmental data sources, and a Dashboard to help environmental experts and policymakers synthesize and visualize data directly and easily.",
+					"An intelligent dashboard that enables environmental professionals to easily analyze, synthesize and visualize data on environmental factors in Vietnam",
 				imgSrc: "https://i.imgur.com/wplIGef.png",
 				imgAlt: "sda-logo",
 				link: "https://github.com/sdateamdtu2020/SDA-v2.0",
