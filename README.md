@@ -1,4 +1,4 @@
-# Mini Project: Portfolio
+# Mini Project: My Portfolio
 
 ## Date: 20 - Aug - 2020
 

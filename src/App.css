@@ -3,28 +3,28 @@
 
 /* Global styles */
 :root {
-	--main-color: #eaeaea;
-	--secondary-color: #fff;
+  --main-color: #eaeaea;
+  --secondary-color: #fff;
 
-	--border-color: #c1c1c1;
+  --border-color: #c1c1c1;
 
-	--main-text: black;
-	--secondary-text: #4b5156;
+  --main-text: black;
+  --secondary-text: #4b5156;
 
-	--theme-dot-border: #24292e;
+  --theme-dot-border: #24292e;
 
-	--preview-background-color: rgba(251, 249, 243, 0.8);
-	--preview-shadow-color: #f0ead6;
+  --preview-background-color: rgba(251, 249, 243, 0.8);
+  --preview-shadow-color: #f0ead6;
 
-	--button-color: black;
+  --button-color: black;
 
-	--a-color: #17a2b8;
+  --a-color: #17a2b8;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 h1,
@@ -34,9 +34,9 @@ h4,
 h5,
 h6,
 strong {
-	color: var(--main-text);
-	font-family: "Russo One", sans-serif;
-	font-weight: 500;
+  color: var(--main-text);
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
 }
 
 p,
@@ -45,39 +45,49 @@ span,
 label,
 input,
 textarea {
-	color: var(--secondary-text);
-	font-family: "Roboto Mono", monospace;
+  color: var(--secondary-text);
+  font-family: "Roboto Mono", monospace;
 }
 
 a {
-	text-decoration: none;
-	color: var(--a-color);
-	font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  color: var(--a-color);
+  font-family: "Roboto Mono", monospace;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 h1 {
-	font-size: 56px;
+  font-size: 56px;
 }
 
 h2 {
-	font-size: 36px;
+  font-size: 36px;
 }
 h3 {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 h4 {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 h5 {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 h6 {
-	font-size: 16px;
+  font-size: 16px;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
