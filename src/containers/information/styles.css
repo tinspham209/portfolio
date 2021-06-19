@@ -1,0 +1,73 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  min-height: 100vh;
+  margin: 50px auto;
+  padding: 0 50px;
+  overflow: hidden;
+
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.app img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.app h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app h4 {
+  font-size: 20px;
+}
+
+.social {
+  margin: 10px 0;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  border-top-right-radius: 40px;
+  -moz-border-radius-topright: 40px;
+  -webkit-border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  -moz-border-radius-bottomleft: 40px;
+  -webkit-border-bottom-left-radius: 40px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in;
+}
+
+.social:hover {
+  transform: scale(1.05);
+}
+
+.social a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding: 0 10px;
+}
+
+.social a .icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.social a p {
+  font-size: 20px;
+}

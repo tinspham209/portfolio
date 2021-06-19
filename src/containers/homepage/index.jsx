@@ -10,14 +10,12 @@ const getLanguagesIcons = () => {
       {
         id: 1,
         alt: "HTML5",
-        src:
-          "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
+        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
       },
       {
         id: 2,
         alt: "CSS3",
-        src:
-          "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
+        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
       },
       {
         id: 3,
@@ -27,8 +25,7 @@ const getLanguagesIcons = () => {
       {
         id: 4,
         alt: "React",
-        src:
-          "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
+        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
       },
       {
         id: 5,
@@ -43,8 +40,7 @@ const getLanguagesIcons = () => {
       {
         id: 7,
         alt: "ExpressJS",
-        src:
-          "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png",
+        src: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png",
       },
       // {
       // 	id: 8,
@@ -77,8 +73,7 @@ const getToolsIcon = () => {
       {
         id: nextId(),
         alt: "VScode",
-        src:
-          "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
+        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
       },
       {
         id: nextId(),
@@ -98,8 +93,7 @@ const getToolsIcon = () => {
       {
         id: nextId(),
         alt: "Katalon",
-        src:
-          "https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2019/10/22154517/katalon_icon_color_normal.png",
+        src: "https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2019/10/22154517/katalon_icon_color_normal.png",
       },
       {
         id: nextId(),
@@ -163,6 +157,16 @@ const getPosts = () => {
     posts: [
       {
         id: nextId(),
+        title: "Expert-driven Smart Dashboard Application",
+        description:
+          "Automate data processing which help the experts of every fields can insert their data sources and visualize, integrate them with related multidimensional data cubes by completely automate method.",
+        imgSrc:
+          "https://github.com/sdateamdtu2020/SDA-v2.0/blob/master/assets/edsda-screenshot.png?raw=true",
+        imgAlt: "edsda-logo",
+        link: "https://github.com/sdateamdtu2020/SDA-v2.0",
+      },
+      {
+        id: nextId(),
         title: "Smart Dashboard Application",
         description:
           "An intelligent dashboard that enables environmental professionals to easily analyze, synthesize and visualize data on environmental factors in Vietnam",
@@ -170,6 +174,15 @@ const getPosts = () => {
           "https://github.com/sdateamdtu2020/sda-client/raw/master/screenshot.png",
         imgAlt: "sda-logo",
         link: "https://github.com/sdateamdtu2020/SDA-v2.0",
+      },
+      {
+        id: nextId(),
+        title: "NOOR Coffee Website",
+        description: "A website of my coffee shop",
+        imgSrc:
+          "https://github.com/tinspham209/noor-coffee-v2.0/raw/master/screenshot.png",
+        imgAlt: "noor-coffee-tea-website",
+        link: "https://noordn.cf",
       },
       {
         id: nextId(),
@@ -181,15 +194,7 @@ const getPosts = () => {
         imgAlt: "kingstonedanang.com",
         link: "https://kingstonedanang.com",
       },
-      {
-        id: nextId(),
-        title: "NOOR Coffee Website",
-        description: "A website of my coffee shop",
-        imgSrc:
-          "https://github.com/tinspham209/noor-coffee-v2.0/raw/master/screenshot.png",
-        imgAlt: "noor-coffee-tea-website",
-        link: "https://noordn.cf",
-      },
+
       {
         id: nextId(),
         title: "50 projects 50 days",
@@ -484,8 +489,7 @@ const getPosts = () => {
         description: "Study C# and Winform & SQL Servcer",
         imgSrc: "https://i.imgur.com/LhRzcXb.png",
         imgAlt: "billing-inventory-management",
-        link:
-          "https://github.com/tinspham209/billing-inventory-management-winform",
+        link: "https://github.com/tinspham209/billing-inventory-management-winform",
       },
       {
         id: nextId(),
