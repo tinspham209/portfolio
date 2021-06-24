@@ -5,12 +5,24 @@
   flex-direction: column;
   max-width: 400px;
   min-height: 100vh;
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 0 50px;
   overflow: hidden;
 
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
+}
+
+.scrollToTop {
+  position: fixed;
+  width: 100%;
+  left: 30px;
+  bottom: 50px;
+  height: 20px;
+  font-size: 40px;
+  z-index: 999;
+  cursor: pointer;
+  color: green;
 }
 
 .app img {
@@ -19,20 +31,21 @@
   border-radius: 50%;
 }
 
-.app h2 {
+.information h2 {
   font-size: 30px;
   margin-bottom: 10px;
   padding-bottom: 0;
+  font-weight: bold;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.app h4 {
+.information h4 {
   font-size: 20px;
 }
 
 .social {
   margin: 10px 0;
-  width: 100%;
+  width: 80%;
   padding: 5px;
   border: 1px solid black;
   border-top-right-radius: 40px;
@@ -44,7 +57,9 @@
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -1px 3px 3px -1px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -1px 3px 3px -1px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 3px 3px -1px rgba(0, 0, 0, 0.25);
   transition: all 0.2s ease-in;
 }
 
@@ -70,4 +85,38 @@
 
 .social a p {
   font-size: 20px;
+}
+
+.intro-wrapper1 {
+  background-color: var(--secondary-color);
+  width: 100%;
+
+  border: 1px solid var(--border-color);
+  border-radius: 5px 5px 0 0;
+  -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 350px) {
+  .social a p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .social a p {
+    font-size: 16px;
+  }
+  .information h2 {
+    font-size: 24px;
+  }
 }

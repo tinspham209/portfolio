@@ -1,203 +1,263 @@
-import React from "react";
+import React, { useState } from "react";
 import zaloIcon from "../../assets/img/icon-zalo.png";
 import avatar from "../../assets/img/full-nguoi-edit.webp";
 import "./styles.css";
 import { Link } from "react-router-dom";
+import Greeting from "../../components/greeting";
+import { FaArrowCircleUp } from "react-icons/fa";
 
 const Information = () => {
+  const [visible, setVisible] = useState(false);
+
+  const toggleVisible = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 200) {
+      setVisible(true);
+    } else if (scrolled <= 200) {
+      setVisible(false);
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  window.addEventListener("scroll", toggleVisible);
+
   return (
     <div className="app">
-      <img src={avatar} alt="avatar" />
-      <h2>Tín Phạm (Tins)</h2>
-
-      <div className="social">
-        <Link to="/portfolio">
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/chrome.png"
-              alt="website"
-            />
-          </div>
-          <p>Website</p>
-          <div className=""></div>
-        </Link>
+      <div className="scrollToTop">
+        <FaArrowCircleUp
+          onClick={scrollToTop}
+          style={{ display: visible ? "inline" : "none" }}
+        />
       </div>
-
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://github.com/tinspham209"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/github.png"
-              alt="github"
-            />
+      <div className="intro-wrapper1">
+        <div className="nav-wrapper">
+          <div className="nav-wrapper-left__dots-wrapper">
+            <div className="browser-dot dot-1"></div>
+            <div className="browser-dot dot-2"></div>
+            <div className="browser-dot dot-3"></div>
           </div>
-          <p>Github</p>
-          <div className=""></div>
-        </a>
-      </div>
+        </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="mailto:tinphamvan123@gmail.com"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/gmail-new.png"
-              alt="email"
-            />
-          </div>
-          <p>Email</p>
-          <div className=""></div>
-        </a>
-      </div>
+        <div className="information">
+          <img src={avatar} alt="avatar" />
+          <h2>Tín Phạm (Tins)</h2>
 
-      <div className="social">
-        <a rel="noopener noreferrer" target="__blank" href="tel:+84932535175">
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/phone.png"
-              alt="phone"
-            />
+          <div className="social">
+            <Link to="/portfolio">
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/chrome.png"
+                  alt="website"
+                />
+              </div>
+              <p>Portfolio</p>
+              <div className=""></div>
+            </Link>
           </div>
-          <p>Phone Number</p>
-          <div className=""></div>
-        </a>
-      </div>
+          <div className="social">
+            <a rel="noopener noreferrer" target="__blank" href="/resume.pdf">
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/nolan/50/open-resume.png"
+                  alt="resume"
+                />
+              </div>
+              <p>Resume</p>
+              <div className=""></div>
+            </a>
+          </div>
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://github.com/tinspham209"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/github.png"
+                  alt="github"
+                />
+              </div>
+              <p>Github</p>
+              <div className=""></div>
+            </a>
+          </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://www.linkedin.com/in/phamvantins/"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/color/48/000000/linkedin.png"
-              alt="linkedin"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="mailto:tinphamvan123@gmail.com"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/gmail-new.png"
+                  alt="email"
+                />
+              </div>
+              <p>Email</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Linkedin</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://www.facebook.com/tinspham.209"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/facebook-new.png"
-              alt="facebook"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="tel:+84932535175"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/phone.png"
+                  alt="phone"
+                />
+              </div>
+              <p>Phone Number</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Facebook</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://www.instagram.com/phamthitins"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
-              alt="instagram"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://www.linkedin.com/in/phamvantins/"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/color/48/000000/linkedin.png"
+                  alt="linkedin"
+                />
+              </div>
+              <p>Linkedin</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Instagram</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://zalo.me/84932535175"
-        >
-          <div className="icon">
-            <img src={zaloIcon} alt="zalo" />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://www.facebook.com/tinspham.209"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/facebook-new.png"
+                  alt="facebook"
+                />
+              </div>
+              <p>Facebook</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Zalo</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://join.skype.com/invite/nIMfCFEGYbhj"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/skype.png"
-              alt="skype"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://www.instagram.com/phamthitins"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+                  alt="instagram"
+                />
+              </div>
+              <p>Instagram</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Skype</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://www.tiktok.com/@tinspham.209?"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/fluent/48/000000/tiktok.png"
-              alt="tiktok"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://zalo.me/84932535175"
+            >
+              <div className="icon">
+                <img src={zaloIcon} alt="zalo" />
+              </div>
+              <p>Zalo</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Tiktok</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://tinsphamvan.wordpress.com/"
-        >
-          <div className="icon">
-            <img
-              src="https://img.icons8.com/color/48/000000/wordpress.png"
-              alt="Blog"
-            />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://join.skype.com/invite/nIMfCFEGYbhj"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/skype.png"
+                  alt="skype"
+                />
+              </div>
+              <p>Skype</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Blog</p>
-          <div className=""></div>
-        </a>
-      </div>
 
-      <div className="social">
-        <a
-          rel="noopener noreferrer"
-          target="__blank"
-          href="https://nhantien.momo.vn/0932535175"
-        >
-          <div className="icon">
-            <img src="https://developers.momo.vn/images/logo.png" alt="momo" />
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://www.tiktok.com/@tinspham.209?"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/fluent/48/000000/tiktok.png"
+                  alt="tiktok"
+                />
+              </div>
+              <p>Tiktok</p>
+              <div className=""></div>
+            </a>
           </div>
-          <p>Momo</p>
-          <div className=""></div>
-        </a>
+
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://tinsphamvan.wordpress.com/"
+            >
+              <div className="icon">
+                <img
+                  src="https://img.icons8.com/color/48/000000/wordpress.png"
+                  alt="Blog"
+                />
+              </div>
+              <p>Blog</p>
+              <div className=""></div>
+            </a>
+          </div>
+
+          <div className="social">
+            <a
+              rel="noopener noreferrer"
+              target="__blank"
+              href="https://nhantien.momo.vn/0932535175"
+            >
+              <div className="icon">
+                <img
+                  src="https://developers.momo.vn/images/logo.png"
+                  alt="momo"
+                />
+              </div>
+              <p>Momo</p>
+              <div className=""></div>
+            </a>
+          </div>
+
+          <Greeting />
+        </div>
       </div>
     </div>
   );
