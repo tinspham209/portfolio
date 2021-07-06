@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import zaloIcon from "../../assets/img/icon-zalo.png";
 import avatar from "../../assets/img/full-nguoi-edit.webp";
+import avatarIcon from "../../assets/img/avatar.webp";
 import "./styles.css";
 import { Link } from "react-router-dom";
 import Greeting from "../../components/greeting";
@@ -51,10 +52,7 @@ const Information = () => {
           <div className="social">
             <Link to="/portfolio">
               <div className="icon">
-                <img
-                  src="https://img.icons8.com/fluent/48/000000/chrome.png"
-                  alt="website"
-                />
+                <img src={avatarIcon} alt="website" />
               </div>
               <p>Portfolio</p>
               <div className=""></div>
@@ -192,40 +190,6 @@ const Information = () => {
             <a
               rel="noopener noreferrer"
               target="__blank"
-              href="https://join.skype.com/invite/nIMfCFEGYbhj"
-            >
-              <div className="icon">
-                <img
-                  src="https://img.icons8.com/fluent/48/000000/skype.png"
-                  alt="skype"
-                />
-              </div>
-              <p>Skype</p>
-              <div className=""></div>
-            </a>
-          </div>
-
-          <div className="social">
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="https://www.tiktok.com/@tinspham.209?"
-            >
-              <div className="icon">
-                <img
-                  src="https://img.icons8.com/fluent/48/000000/tiktok.png"
-                  alt="tiktok"
-                />
-              </div>
-              <p>Tiktok</p>
-              <div className=""></div>
-            </a>
-          </div>
-
-          <div className="social">
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
               href="https://tinsphamvan.wordpress.com/"
             >
               <div className="icon">
@@ -235,23 +199,6 @@ const Information = () => {
                 />
               </div>
               <p>Blog</p>
-              <div className=""></div>
-            </a>
-          </div>
-
-          <div className="social">
-            <a
-              rel="noopener noreferrer"
-              target="__blank"
-              href="https://nhantien.momo.vn/0932535175"
-            >
-              <div className="icon">
-                <img
-                  src="https://developers.momo.vn/images/logo.png"
-                  alt="momo"
-                />
-              </div>
-              <p>Momo</p>
               <div className=""></div>
             </a>
           </div>

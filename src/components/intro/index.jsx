@@ -32,7 +32,7 @@ const Greeting = () => {
             <div className="corner corner-tl"></div>
             <div className="corner corner-tr"></div>
             <h3>What I Do?</h3>
-            <p>
+            <p style={{ fontSize: "16px" }}>
               Fresher Developer, interested in designing websites, especially
               things related to Front-end stacks.
             </p>
